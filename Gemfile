@@ -21,6 +21,8 @@ gem 'will_paginate',        '3.1.6'
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 group :development do
